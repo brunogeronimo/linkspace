@@ -14,7 +14,8 @@
 		@yield('content')
 	</div>
 	<footer class="centralized">
-		<h4>Take a look at <a href="https://github.com/brunogeronimo/linkspace" target="_blank">GitHub</a></h4>
+		<div><h4>Source-code available on <a href="https://github.com/brunogeronimo/linkspace" target="_blank">GitHub</a></h4></div>
+		<div><h4><a href="mailto:hi@bruno.works">hi@bruno.works</a></h4></div>
 	</footer>
 </body>
 </html>
