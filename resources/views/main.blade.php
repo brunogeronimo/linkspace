@@ -43,7 +43,7 @@
 					@foreach($links as $l)
 						<div class="panel panel-default">
 							<div class="panel-body">
-								<a href="/links/{{$l->id}}" target="_blank">{{$l->name}} ({{$l->redirects}} click(s)</a>
+								<a href="/links/{{$l->id}}" target="_blank">{{$l->name}} ({{$l->redirects}} click(s))</a>
 							</div>
 						</div>
 					@endforeach
