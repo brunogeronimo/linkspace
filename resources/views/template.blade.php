@@ -13,7 +13,7 @@
 	<div class="container-fluid">
 		@yield('content')
 	</div>
-	<footer>
+	<footer class="centralized">
 		<h4>Take a look at <a href="https://github.com/brunogeronimo/linkspace" target="_blank">GitHub</a></h4>
 	</footer>
 </body>
