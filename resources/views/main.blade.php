@@ -1,6 +1,6 @@
 @extends('template')
 @section('title')
-	Test
+	Main
 @stop
 @section('content')
 	@if(old('url'))
@@ -15,9 +15,9 @@
 			{{session('errorMessage')}}
 		</div>
 	@endif
-	<div class="col-md-10 col-md-offset-2">
+	<div class="col-md-10 col-sm-10 col-md-offset-2">
 		<div>
-			<h3>With our platform, you're able to share a link or access a random one</h3>
+			<h3>Share a link with the world, and access a random one!</h3>
 		</div>
 		<div class="container-fluid main-link-form">
 			<form action="/link" method="post">
