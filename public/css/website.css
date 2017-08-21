@@ -1,9 +1,9 @@
 .top{
 	min-height: 8em;
-	background-color: #2F31FF;
+	background-color: #3097D1;
 }
 
-.top h1{
+.top h1, .top h3{
 	color: #FFFFFF;
 }
 

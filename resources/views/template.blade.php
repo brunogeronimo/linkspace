@@ -7,8 +7,9 @@
 	<link rel="stylesheet" type="text/css" href="/css/website.css">
 </head>
 <body>
-	<div class="container-fluid top">
-		<h1>Share Your Link with the World!</h1>
+	<div class="container-fluid top centralized">
+		<h1>LinkSpace</h1>
+		<h3>Your link shared with the world!</h3>
 	</div>
 	<div class="container-fluid">
 		@yield('content')
