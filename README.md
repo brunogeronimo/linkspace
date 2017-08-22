@@ -2,6 +2,7 @@
 - PHP 7.0;
 - Composer;
 - Laravel 5.4;
+- MySQL Server 5.7.
 
 ### How to build your environment
 - run `composer global require "laravel/installer"`
