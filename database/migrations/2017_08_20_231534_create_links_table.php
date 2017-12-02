@@ -14,10 +14,10 @@ class CreateLinksTable extends Migration
     public function up()
     {
         Schema::create('link', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->integer('id');
             $table->string('name', 100)->default('');
             $table->string('url', 200)->unique();
-            $table->bigInteger('redirects')->default(0);
+            $table->integer('redirects')->default(0);
             $table->timestamps();
         });
     }
